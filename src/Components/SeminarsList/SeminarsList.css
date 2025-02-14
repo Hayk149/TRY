@@ -1,0 +1,19 @@
+h1 {
+    font-size: 36px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.seminars {
+    margin: 20px auto;
+}
+
+.seminars li{
+    margin-bottom: 15px;
+    border: solid #918585;
+    border-radius: 10px;
+}
+
+.seminars li:last-child {
+    margin-bottom: 0;
+}
