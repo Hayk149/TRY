@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './SeminarEditModal.css'
 
 const SeminarEditModal = ( props ) => {
     const [title, setTitle] = useState(props.title);
