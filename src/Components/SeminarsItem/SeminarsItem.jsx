@@ -37,6 +37,10 @@ const SeminarsItem = (props) => {
                     <p>Дата проведения семинара: <time dateTime={props.date}>{props.date}</time></p>
                     <p>Время начала семинара: <time dateTime={props.time}>{props.time}</time></p>
                 </div>
+                <div className='image__box'>
+                    {/* {console.log("Photo URL:", props.photo)} */}
+                    <img src={props.photo} alt={props.title} />
+                </div>
             </div>
             <div className='seminar__btns'>
                 <Button onClick={EditClick}>Редактировать</Button >
@@ -48,7 +52,7 @@ const SeminarsItem = (props) => {
                         title={props.title}
                         description={props.description}
                         date={props.date}
-                        time={props.time}/>)
+                        time={props.time} />)
                 }
                 <Button onClick={DeleteClick}>Удалить</Button >
                 {

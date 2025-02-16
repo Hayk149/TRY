@@ -19,6 +19,7 @@ const SeminarsList = ({ seminars, title, remove, update }) => {
                             description={seminar.description}
                             date={seminar.date}
                             time={seminar.time}
+                            photo={seminar.photo}
                             seminar={seminar}
                         />
                     }</li>
